@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "#e7e6e2"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "EB Garamond"
+
+[server]
+headless = true
+
+[client]
+showSidebarNavigation = true
