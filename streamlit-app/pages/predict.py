@@ -13,9 +13,6 @@ st.markdown(
     """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-    * {
-        font-family: 'EB Garamond', serif !important;
-    }
     .stApp h1, .stApp h2, .stApp h3, .stApp p {
         font-family: 'EB Garamond', serif !important;
     }
@@ -23,6 +20,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 # --- Title and Instructions ---
 st.title("📈 Forecast Penjualan")

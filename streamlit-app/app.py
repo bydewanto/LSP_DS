@@ -17,10 +17,6 @@ st.markdown(
     * {
         font-family: 'EB Garamond', serif !important;
     }
-    
-    .stApp h1, .stApp h2, .stApp h3, .stApp p {
-        font-family: 'EB Garamond', serif !important;
-    }
     </style>
     """,
     unsafe_allow_html=True
