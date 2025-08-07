@@ -51,7 +51,7 @@ if st.button("🔮 Proses Prediksi"):
         promo_input = 1 if promo_value == "Ya" else 0
 
         # Load and prepare data
-        df = load_data("pages/hierarchical_sales_data.csv")
+        df = load_data("hierarchical_sales_data.csv")
         df_prepared = prepare_data(df, mode=mode, id=id)
 
         target_col = f"QTY_{mode.upper()}_{id}"
